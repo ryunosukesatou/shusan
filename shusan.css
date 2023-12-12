@@ -48,7 +48,7 @@ nav ul{
 	height: 100vh;
 	background-color: white;
 	background-image: url();
-	padding: 100px 0;
+	padding: 50px 0;
 }
 nav li{
 	text-align: center;
@@ -66,10 +66,7 @@ nav a{
 	font-family: "Hiragino Sans";
 	text-decoration: none;
 }
-nav li:hover{
-	text-shadow: 3px 3px 1px rgba(0, 0, 0, .3);
 
-}
 nav span{
 	float: right;
 }
