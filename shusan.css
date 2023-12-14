@@ -335,6 +335,19 @@ footer a{
 .map img{
 	width: 100px;
 }
+.hello{
+	padding: 0 20px;
+	text-align: center;
+}
+.hello h1{
+	margin-top: 30px;
+	font-size: 25px;
+	text-align:left;
+}
+.hello img{
+	width: 200px;
+	padding:10px 20px 10px 0px;
+}
 #copyright{
 	font-size: 11px;
 	padding-top: 20px;
