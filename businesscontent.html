@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="shusan.css">
+	<link rel="stylesheet" type="text/css" href="shusan-phone.css">
+	<link rel="stylesheet" type="text/css" href="shusan-pc.css">
 	<link rel="apple-touch-icon" href="logo.jpg" sizes="180x180">
 	<script src="https://kit.fontawesome.com/0ea1fc94c2.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -11,21 +12,22 @@
 	<title>ジャパンインタートレーディング株式会社</title>
 </head>
 <body>
-	<div id="wrap">
-		<!--ヘッダー -->
+	<div style="height:100px;"></div>
+		<!---------------------------------------------------------------------------ヘッダー---------------------------------------------------------------------------------------->
 		<header>
-			<a href="index.html"><img class="header-img" src="Tohome.jpg"></a>
-
-			<ul class="pc-nav">
+			<a href="index.html">
+				<img src="Tohome.jpg">
+			</a>
+			<ul>
 				<a href="companyinformation.html"><li>企業情報</li></a>
 				<a href="businesscontent.html"><li>事業内容</li></a>
 				<a href="companyprofile.html"><li>会社概要</li></a>
 				<a href="contactus.html"><li>お問い合わせ</li></a>
 			</ul>
 			<i class="fa fa-bars nav-btn"></i>
-
 		</header>
-		<!--ナビゲーション-->
+		<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!---------------------------------------------------------------------------ナビゲーション------------------------------------------------------------------------------------>
 		<nav>
 			<ul>
 				<a href="index.html"><li>HOME</li></a>
@@ -36,67 +38,41 @@
 				
 			</ul>
 		</nav>
-		<div style="height: 80px;"></div>
-		<!--メイン-->
-			<div class="business-content">
-				<h1>事業内容</h1>
-				<p class="business-content-title">Business content</p>
+		<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!---------------------------------------------------------------------------メイン------------------------------------------------------------------------------------------->
+		<div id="main-container">
+		<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------------事業内容-------------------------------------------------------------------------------------------->
+			<div class="business-content-container">
+				<h1 class=>事業内容</h1>
+				<span class="business-content-english">Business content</span>
 				<ul>
 					<li>
-						<h1>流通事業(輸出入)</h1>
+						<h2>流通事業(輸出入)</h2>
 						<img src="ryutu.jpg">
 						<p>アジアを主とした輸出入による、流通事業を主たる事業基盤としております。取扱い品目は多岐に渡り生鮮食品/加工食品/飲料(酒類含む)/日用雑貨品/地方ブランドなどを国内外から仕入販売を営んでおります。​</p>
 					</li>
-					<li>
-						<h1>IT事業</h1>
+						<h2>IT事業</h2>
 						<img src="it.jpg">
 						<p>新たな事業領域の構築を行い収益基盤の創出することを目標にＩＴ事業を展開してまいります。​創業メンバーのスキルや知見、技術者交流などで「アプリ開発」「ＡＩ開発」「コンサルティング業務」等を手掛けます。​</p>
 					</li>
 					<li>
-						<h1>通販事業</h1>
+						<h2>通販事業</h2>
 						<img src="tuhan.jpg">
 						<p>流通事業の底上げを図る目的で通販事業を展開して参ります。国内外を問わずJITが調達する商品を通販サイトでお取扱い。東南アジア現地においては現地顧客向けに「日本製品」を紹介して参ります。</p>
 					</li>
 					<li>
-						<h1>代理店事業</h1>
+						<h2>代理店事業</h2>
 						<img src="dairi.jpg">
 						<p>マーケティングの広告や販売促進のイベント企画・開催、他社の面白いサービスを導入支援など弊社が持つネットワークを活用し、お客様のニーズに沿った代理業務を請け負います。​</p>
 					</li>
 				</ul>
 			</div>
-			<div class="business-content">
-				<ul>
-					<li>
-						<h1>​日本製食品</h1>
-						<img src="shokuhinn.jpg">
-						<p>食料品（生鮮食料品も含めます）、飲料、酒など日本製の食品全般を取り扱っています。故郷ブランド物もご用命頂けます。</p>
-					</li>
-					<li>
-						<h1>日本製日用雑貨</h1>
-						<img src="zakka.jpg">
-						<p>日本で取り扱われている様々な日用雑貨をお取り次ぎ致します。希少な故郷ブランド物もご用命頂けます。</p>
-					</li>
-					<li>
-						<h1>日本製自動車部品</h1>
-						<img src="car.jpg">
-						<p>海外へ輸出された中古車に欠かせない修理部品のお取り寄せを行っております。希少な部品も国内の調達ネットワークを活かしご用命を賜ります。</p>
-					</li>
-					
-				</ul>
-			</div>
-
-
-
-
-
-
-			
-				<p  id="copyright">Copyright © 2022 JAPAN INTER TRADING CO., LTD. All Rights Reserved.</p>
+			<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+			<p  id="copyright">Copyright © 2022 JAPAN INTER TRADING CO., LTD. All Rights Reserved.</p>
 			</footer>
-			
 		</div>
-	</div>
-			
+	</div>		
 	</div>
 	<script src="shusan.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

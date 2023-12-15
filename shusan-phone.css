@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: rgb(51,51,51);
+	font-family:serif;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/*------------------------------------------------------------------------------ヘッダー------------------------------------------------------------------------------------*/
+header{
+	position: fixed;
+	top: 0;
+	height: 80px;
+	width: 100vw;
+	z-index: 100;
+	background-color: white;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+
+header i{
+	float: right;
+	
+	padding: 30px;
+	font-size: 20px;
+	color: rgb(51,51,51);
+}
+
+header img{
+	float: left;
+	height: 60px;
+	margin: 10px 0 0 10px;
+}
+header li{
+	height: 60px !important;
+}
+header ul{
+	display: none;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------ナビゲーション------------------------------------------------------------------------------*/
+nav{
+	display: none;
+	position: fixed;
+	background-color: white;
+	text-align: left;
+	z-index: 99; 
+	box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+nav ul{
+	width: 100vw;
+	background-color: white;
+	padding: 50px 0;
+}
+nav li{
+	height: 100px;
+	line-height: 100px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "Hiragino Sans";
+	color: rgb(51,51,51);
+	text-align: center;
+	cursor: pointer;
+	transition:all 0.3s;
+}
+nav a{
+	font-family: "Hiragino Sans";
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------トップ画像----------------------------------------------------------------------------------*/
+
+.top-img{
+	height:200px;
+}
+.top-img1{
+	background-image: url(top-img1.jpg);
+}
+.top-img2{
+	background-image: url(top-img2.jpg);
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------メイン-------------------------------------------------------------------------------------*/
+#main-container{
+	padding: 0px 20px 20px 20px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------メッセージ----------------------------------------------------------------------------------*/
+.message-container{	
+	padding:15px 0 30px 0;
+}
+.message-container div{
+	text-align: center;
+}
+.message-container img{
+	width: 150px;
+	margin-right: 20px;
+}
+.message-container p{
+	line-height: 35px;
+	font-weight: 400;
+	font-size: 18px;
+}
+.message-container p{
+	margin-top: 10px;
+	line-height: 30px;
+	font-size: 15px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------事業内容----------------------------------------------------------------------------------*/
+.business-content-container{
+	margin-bottom: 20px;
+}
+.business-content-container h1{
+	font-size: 25px;
+	line-height: 25px;
+}
+.business-content-container span{
+	display: block;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,.4);
+	border-bottom: 1px solid rgba(51,51,51);
+}
+.business-content-container ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+.business-content-container li{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.business-content-container h2{
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+.business-content-container img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.business-content-container p{
+	font-size: 15px;
+	text-align: left;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------会社概要-----------------------------------------------------------------------------------*/
+.company-profile-container{
+	margin-bottom: 20px;
+}
+.company-profile-container h1{
+	font-size: 25px;
+	line-height: 25px;
+}
+.company-profile-container span{
+	display: block;
+	color: rgba(0,0,0,.4);
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(51,51,51);
+}
+.company-profile-container ul{
+	padding-left: 5px;
+}
+.company-profile-container p{
+}
+
+.company-profile-container li{
+	font-size: 14px;
+	padding: 5px 0;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------フッター-----------------------------------------------------------------------------------*/
+footer{
+	text-align: center;
+}
+footer p{
+	font-size: 9px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
