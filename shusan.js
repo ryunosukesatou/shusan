@@ -20,11 +20,12 @@ $(function(){
 
    
 
-    $("i").click(function () {
+    $("header i").click(function () {
         $("nav").slideToggle(700);
     });
+
     $(".ryutu-container h3").click(function () {
-        $(this).next("li").slideToggle(700);
+        $(this).next("li").slideToggle(650);
     });
 
  });
