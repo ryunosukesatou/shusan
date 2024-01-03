@@ -111,7 +111,7 @@ nav li:hover{
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------メッセージ----------------------------------------------------------------------------------*/
 .message-container{	
-	padding:20px 0 80px 0;
+	padding:50px 0 50px 0;
 }
 .message-container div{
 	text-align: center;
@@ -130,78 +130,219 @@ nav li:hover{
 /*------------------------------------------------------------------------------事業内容----------------------------------------------------------------------------------*/
 .business-content-container{
 	margin-bottom: 20px;
+	margin-top: 30px;
 }
 .business-content-container h1{
+
 	font-size: 35px;
-	line-height: 35px;
-	margin-left: -2px;
+	line-height: 30px;
 }
 .business-content-container span{
+	
 	display: block;
-	font-size: 20px;
 	margin-bottom: 50px;
 	color: rgba(0,0,0,.4);
-	border-bottom: 2px solid rgba(51,51,51);
+	border-bottom: 1px solid rgba(51,51,51);
 }
-.business-content-container ul{
+.business-content-container-ul{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
 }
 .business-content-container li{
-	width: 50%;
+	width: 40%;
+	padding: 0 5%;
 	text-align: center;
-	margin-bottom: 40px;
-	justify-content: center; 
+	margin-bottom: 50px;
 }
 .business-content-container h2{
-	font-size: 30px;
-	margin-bottom: 5px;
+	font-size: 25px;
+	margin-bottom: 10px;
 }
 .business-content-container img{
-	width: 550px;
-	height: 350px;
-	margin-bottom: 5px;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
 }
 .business-content-container p{
-	line-height: 40px;
-	padding: 0 50px;
 	font-size: 19px;
+	padding: 0 10px;
+	line-height: 38px;
 	text-align: left;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------------------------------------会社概要-----------------------------------------------------------------------------------*/
 .company-profile-container{
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 .company-profile-container h1{
-	font-size: 35px;
+	font-size: 30px;
 	line-height: 35px;
+	text-align: ;
 }
 .company-profile-container span{
 	display: block;
 	color: rgba(0,0,0,.4);
-	font-size: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	border-bottom: 1px solid rgba(51,51,51);
 }
 .company-profile-container ul{
-	padding-left: 10px;
+	padding-left: 20px;
+	width: 500px;
+	
+
 }
 .company-profile-container li{
-	font-size: 19px;
-	line-height: 40px;
+	font-size: 20px;
 	padding: 5px 0;
 }
-/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------------------------------------フッター-----------------------------------------------------------------------------------*/
-footer{
+.ryutu-container {
+	width: 80%;
+	margin-bottom: 20px;
+	justify-content: left;
+	display: none;
+}
+.ryutu-container li{
+	display: none;
+	display: none;
+}
+.ryutu-container h3{
+	display: none;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	font-size: 16px;
+	font-weight: 200;
+	text-align: left;
+	border-top:1px solid  rgba(51,51,51,.5);
+	
+}
+.ryutu-container h4{
+	display: none;
+	font-size: 18px;
+	padding: 5px 0;
+	border-top:1px solid  rgba(51,51,51,.5);
+}
+.philosophy-container{
+	margin-bottom: 70px;
+}
+.philosophy-container h1{
+	font-size: 30px;
+	line-height: 35px;
+}
+.philosophy-container span{
+	display: block;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,.4);
+	border-bottom: 1px solid rgba(51,51,51);
+}
+.philosophy-container img{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 3px;
+}
+.philosophy-container p{
+	font-size: 19px;
+	padding: 0 10px;
+	line-height: 43px;
+	text-align: left;
+}
+.history-container{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.history-container h1{
+	font-size: 30px;
+	line-height: 35px;
+	
+}
+.history-container span{
+	display: block;
+	color: rgba(0,0,0,.4);
+	margin-bottom: 30px;
+	border-bottom: 1px solid rgba(51,51,51);
+}
+.history-container ul{
+	padding-left: 15px;
+	margin: 0 auto;
+	border-left: 1px solid rgba(255,0,0,.8);
+}
+.history-container li{
+	font-size: 20px;
+	padding: 5px 0;
+}
+.history-container div{
+ 
+	margin-bottom:5px;
+}
+.history-container img{
+	width: 150px; 
+	margin-left: 190px;
+}
+.contact-container{
 	margin-bottom: 10px;
+	text-align: center;
+}
+.access-container{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.access-container h1{
+	font-size: 30px;
+	line-height: 35px;
+}
+.access-container span{
+	display: block;
+	color: rgba(0,0,0,.4);
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(51,51,51);
+}
+.access-container p{
+	font-size: 19px;
+}
+.access-container iframe{
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.contact-container{
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 200px;
+}
+.contact-container h1{
+	font-size: 30px;
+	line-height: 25px;
+}
+.contact-container span{
+	width: 600px;
+	margin: 0 auto;
+	display: block;
+	color: rgba(0,0,0,.4);
+	font-size: 19px;
+	margin-top: 3px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(51,51,51);
+}
+.contact-container a{
+	font-size: 21px;
+	line-height: 35px; 
+	border-bottom: 2px solid rgb(51,51,51);
+}
+.contact-container p{
+	font-size: 19px;
+	line-height: 35px;  
+	margin-top: 10px;
 }
 
-
-
-
+footer{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background-color: rgba(226, 226, 226, .4);
+}
+footer p{
+	font-size: 12px;
+	color: rgba(0,0,0,.5);
+}
 
 
 }
